@@ -1,0 +1,51 @@
+.nav {
+  background-color: #f35136;
+  overflow: hidden;
+  position: fixed;
+  border-radius: 10px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: rgb(185, 6, 6);
+  color: black;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  float: right;
+  width: 35px;
+  margin: 5px 20px;
+}
+
+.lorem {
+  margin: 0 200px;
+  /* border: 1px solid red; */
+  text-align: justify;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(96, 92, 92, 0.8);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
